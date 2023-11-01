@@ -1,0 +1,12 @@
+<html>
+<head><title>Site Agenda</title></head>
+<body>
+<h1> Agenda </h1>
+{% for dados in dados %}
+<hr>
+<h3>{{ dados['nome'] }}</h3>
+{{ dados['idade'] }}
+{{ dados['id'] }}
+{% endfor %}
+</body>
+</html>

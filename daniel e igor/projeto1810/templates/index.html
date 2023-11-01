@@ -1,0 +1,16 @@
+<html>
+<head><title>oficina de carros</title></head>
+<body>
+
+
+<h1> Agenda </h1>
+
+{% for dado in dado %}
+<hr>
+<h3>{{ dado['nome'] }}</h3>
+
+{{ dado['idade'] }}
+
+{% endfor %}
+</body>
+</html>

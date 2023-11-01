@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>イゴール</title>
+
+</head>
+<body>
+    <h1>Agenda</h1>
+<table border = "1">
+    <tr><td>Nome</td><td>Idade</td></tr>
+    {% for dados in dados%}
+    <tr><td>{{dados['nome']}}</td>
+        <td>{{dados['idade']}}</td></tr>
+        {%endfor%}
+    
+</table>
+
+</body>
+
+</html>
